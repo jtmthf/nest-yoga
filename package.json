@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "clean": "lerna clean",
+    "postinstall": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^2.7.1"
+  }
+}

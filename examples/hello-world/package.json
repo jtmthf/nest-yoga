@@ -1,0 +1,25 @@
+{
+  "name": "hello-world",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./build/main.js",
+    "dev": "backpack dev",
+    "build": "backpack build"
+  },
+  "devDependencies": {
+    "backpack-core": "^0.5.0",
+    "ts-loader": "^3.5.0",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.9.0",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@nestjs/common": "^4.6.5",
+    "@nestjs/core": "^4.6.5",
+    "nest-yoga": "^0.0.0",
+    "reflect-metadata": "=0.1.10",
+    "rxjs": "^5.5.6"
+  }
+}
